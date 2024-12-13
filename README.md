@@ -21,8 +21,15 @@ npm i
 npm run dev
 ```
 
-## Buidl the app
+## Build the app
 
 ```bash
 npm run build
 ```
+
+## ScreenShots and Demos
+
+![alt text](demos/Arc_4Vqi3cV0bK.png)
+![alt text](demos/Arc_gKZrH7X5Wx.png)
+![alt text](demos/Arc_kCh4lRwUqC.png)
+![alt text](demos/Arc_PC1hNx1PoD.png)
