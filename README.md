@@ -31,17 +31,20 @@ npm run build
 
 ## Code Structure
 
-| File/Folder | Description |
-| --- | --- |
-| `components` | Contains react components to be used in the app |
-| `api` | Contains API calls to fetch data from Pokemon API |
-| `app` | Contains Next.js pages and api routes |
-| `types` | Contains type definitions for the app |
-| `next.config.js` | Config file for Next.js |
-| `postcss.config.js` | Config file for PostCSS |
-| `tailwind.config.js` | Config file for Tailwind CSS |
+| File/Folder          | Description                                       |
+| -------------------- | ------------------------------------------------- |
+| `components`         | Contains react components to be used in the app   |
+| `api`                | Contains API calls to fetch data from Pokemon API |
+| `app`                | Contains Next.js pages and api routes             |
+| `types`              | Contains type definitions for the app             |
+| `next.config.js`     | Config file for Next.js                           |
+| `postcss.config.js`  | Config file for PostCSS                           |
+| `tailwind.config.js` | Config file for Tailwind CSS                      |
 
+## How Project works
 
+The project uses [Next.js](https://nextjs.org/) as the React framework and [Tailwind CSS](https://tailwindcss.com/) as the CSS framework, it also uses ky to fetch the data, and Chart.js to display the data.
+, to fetch the pokemons data we used [pokeapi](https://pokeapi.co/)
 
 ## ScreenShots and Demos
 
