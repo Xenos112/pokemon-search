@@ -27,6 +27,22 @@ npm run dev
 npm run build
 ```
 
+## Code Structure
+
+## Code Structure
+
+| File/Folder | Description |
+| --- | --- |
+| `components` | Contains react components to be used in the app |
+| `api` | Contains API calls to fetch data from Pokemon API |
+| `app` | Contains Next.js pages and api routes |
+| `types` | Contains type definitions for the app |
+| `next.config.js` | Config file for Next.js |
+| `postcss.config.js` | Config file for PostCSS |
+| `tailwind.config.js` | Config file for Tailwind CSS |
+
+
+
 ## ScreenShots and Demos
 
 ![alt text](demos/Arc_4Vqi3cV0bK.png)
