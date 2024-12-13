@@ -4,6 +4,7 @@ import { TimeoutError } from "ky";
 
 export default async function fetchPokemon(name: number | string) {
   try {
+    // fetch the pokemon
     let data: Pokemon;
     const res = await client.get<Pokemon>(`pokemon/${name}`, {
       throwHttpErrors: false,
@@ -17,9 +18,11 @@ export default async function fetchPokemon(name: number | string) {
       throw new Error(`Failed to fetch pokemon ${name}`);
     }
 
-    data = await res.json<Pokemon>();
+    // return the data
+    data = await res.json();
     return { data, error: null };
   } catch (error) {
+    // if it passes 10s we fire up a connection error
     if (error instanceof TimeoutError)
       return { data: null, error: "Please Check your Network Connection" };
     return { data: null, error: (error as Error).message };
