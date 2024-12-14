@@ -1,5 +1,9 @@
 # Pokemon Search Website
 
+# Prerequisites 
+- Node js
+- Git
+
 # How to Run
 
 ## Clone the repository
